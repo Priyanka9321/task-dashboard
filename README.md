@@ -1,8 +1,8 @@
 # Task & Insights Dashboard
 
-A **Task Management Dashboard** built with **React + TypeScript**, demonstrating component-based architecture, task CRUD, filtering, sorting, analytics, and localStorage persistence.
-
-This project was completed as a **frontend assignment** for an interview.
+## Task & Insights Dashboard
+A Task Management Dashboard built with React + TypeScript, demonstrating component-based architecture, task CRUD, filtering, sorting, analytics, and localStorage persistence.
+Completed as a frontend assignment for an interview.
 
 ---
 
@@ -21,38 +21,40 @@ This project was completed as a **frontend assignment** for an interview.
 
 src/
 ├── components/
-│ ├── common/
-│ │ ├── Button.tsx
-│ │ ├── InputField.tsx
-│ │ └── SelectField.tsx
-│ ├── task/
-│ │ ├── TaskForm.tsx
-│ │ ├── TaskItem.tsx
-│ │ └── TaskList.tsx
-│ ├── filter/
-│ │ └── FilterBar.tsx
-│ └── analytics/
-│ └── AnalyticsCard.tsx
+│   ├── common/
+│   │   ├── Button.tsx
+│   │   ├── InputField.tsx
+│   │   └── SelectField.tsx
+│   ├── task/
+│   │   ├── TaskForm.tsx
+│   │   ├── TaskItem.tsx
+│   │   └── TaskList.tsx
+│   ├── filter/
+│   │   └── FilterBar.tsx
+│   └── analytics/
+│       └── AnalyticsCard.tsx
 ├── types/
-│ └── task.ts
+│   └── task.ts
 ├── utils/
-│ └── storage.ts
+│   └── storage.ts
 ├── styles/
-│ ├── global.css
-│ ├── layout.css
-│ ├── form.css
-│ └── task.css
+│   ├── global.css
+│   ├── layout.css
+│   ├── form.css
+│   └── task.css
 ├── App.tsx
 └── main.tsx
 
 
-- **common/** – Reusable components (Button, InputField, SelectField)  
-- **task/** – Task-related components (TaskForm, TaskList, TaskItem)  
-- **filter/** – FilterBar for task filtering  
-- **analytics/** – AnalyticsCard for insights  
-- **types/** – TypeScript interfaces  
-- **utils/** – Storage helpers (localStorage)  
+## Folder responsibilities:
 
+- common/ – Reusable components (Button, InputField, SelectField)
+- task/ – Task-related components (TaskForm, TaskList, TaskItem)
+- filter/ – Task filtering component (FilterBar)
+- analytics/ – Analytics components (AnalyticsCard)
+- types/ – TypeScript interfaces
+- utils/ – Storage helpers for localStorage
+  
 ---
 
 ## ⚙ Features
@@ -96,11 +98,13 @@ src/
 
 ```bash
 npm install
+```
 
-Run locally
+## Run locally
 
 ```bash
 npm run dev
+```
 
 🚀 Deployment
 
@@ -109,20 +113,16 @@ Live demo deployed on Netlify:
 
 🧠 Code Highlights
 
-Component-based design with single responsibility components
-Controlled forms with reusable InputField & SelectField
-Derived state for filtered tasks and analytics (no redundant state)
-TypeScript interfaces for strong typing and maintainability
-useMemo for performance-friendly filtering and sorting
+- Component-based design with single responsibility components
+- Controlled forms with reusable InputField & SelectField
+- Derived state for filtered tasks and analytics (no redundant state)
+- TypeScript interfaces for strong typing and maintainability
+- useMemo for performance-friendly filtering and sorting
 
 📚 Usage
 
-1.Add a task using the form
-
-2.Filter tasks using status/priority dropdowns
-
-3.Change task status inline (Todo → Done)
-
-4.Delete a task with the red Delete button
-
-5.Observe analytics update automatically
+- Add a task using the form
+- Filter tasks using status/priority dropdowns
+- Change task status inline (Todo → Done)
+- Delete a task with the red Delete button
+- Observe analytics update automatically
