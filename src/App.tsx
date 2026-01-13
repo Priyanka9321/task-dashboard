@@ -102,7 +102,7 @@ function App() {
   // ----------------------
   return (
     <div className="app-container">
-      <h1>Task & Insights Dashboard</h1>
+      <h1>Tasks & Insights Dashboard</h1>
 
       {/* Analytics */}
       <section className="analytics">
