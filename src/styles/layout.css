@@ -1,0 +1,41 @@
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Analytics */
+
+.analytics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.analytics-card {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.analytics-label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.analytics-value {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Filters */
+
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
