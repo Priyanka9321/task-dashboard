@@ -17,35 +17,6 @@ Completed as a frontend assignment for an interview.
 
 ---
 
-## 🏗 Project Structure
-
-src/
-├── components/
-│   ├── common/
-│   │   ├── Button.tsx
-│   │   ├── InputField.tsx
-│   │   └── SelectField.tsx
-│   ├── task/
-│   │   ├── TaskForm.tsx
-│   │   ├── TaskItem.tsx
-│   │   └── TaskList.tsx
-│   ├── filter/
-│   │   └── FilterBar.tsx
-│   └── analytics/
-│       └── AnalyticsCard.tsx
-├── types/
-│   └── task.ts
-├── utils/
-│   └── storage.ts
-├── styles/
-│   ├── global.css
-│   ├── layout.css
-│   ├── form.css
-│   └── task.css
-├── App.tsx
-└── main.tsx
-
-
 ## Folder responsibilities:
 
 - common/ – Reusable components (Button, InputField, SelectField)
@@ -106,10 +77,14 @@ npm install
 npm run dev
 ```
 
+---
+
 🚀 Deployment
 
 Live demo deployed on Netlify:
 [Replace with your Netlify URL]
+
+---
 
 🧠 Code Highlights
 
@@ -118,6 +93,8 @@ Live demo deployed on Netlify:
 - Derived state for filtered tasks and analytics (no redundant state)
 - TypeScript interfaces for strong typing and maintainability
 - useMemo for performance-friendly filtering and sorting
+
+---
 
 📚 Usage
 
