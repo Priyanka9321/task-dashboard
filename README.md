@@ -79,14 +79,14 @@ npm run dev
 
 ---
 
-🚀 Deployment
+## 🚀 Deployment
 
 Live demo deployed on Netlify:
 [Replace with your Netlify URL]
 
 ---
 
-🧠 Code Highlights
+## 🧠 Code Highlights
 
 - Component-based design with single responsibility components
 - Controlled forms with reusable InputField & SelectField
@@ -96,7 +96,7 @@ Live demo deployed on Netlify:
 
 ---
 
-📚 Usage
+## 📚 Usage
 
 - Add a task using the form
 - Filter tasks using status/priority dropdowns
