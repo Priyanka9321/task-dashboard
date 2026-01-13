@@ -81,8 +81,8 @@ npm run dev
 
 ## 🚀 Deployment
 
-Live demo deployed on Netlify:
-[Replace with your Netlify URL]
+Live demo deployed on Netlify:  
+[Task & Insights Dashboard](https://task-insight.netlify.app/)
 
 ---
 
